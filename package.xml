@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package>
+    <name>magebuzz_ajax_login</name>
+    <version>0.1.2</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">OSL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Magebuzz Ajax Login 0.1.2</summary>
+    <description>Ajax Login is a must-have extension for any online Magento store. This module offers the best login experience for customers by allowing them to sign up and login to your system more quickly via a provided popup. </description>
+    <notes>- Release: July 15, 2014&#xD;
+- Add configuration for show/hide newsletter subscription and terms conditions&#xD;
+- Fix the module to work with Magento captcha</notes>
+    <authors><author><name>Magebuzz</name><user>magebuzz</user><email>magebuzz@gmail.com</email></author></authors>
+    <date>2016-02-05</date>
+    <time>08:30:36</time>
+    <contents><target name="magecommunity"><dir name="Magebuzz"><dir name="Ajaxlogin"><dir name="Block"><file name="Ajaxlogin.php" hash="90854771656b38776272c1ecca1f9b25"/></dir><dir name="Helper"><file name="Data.php" hash="9549c310a8fba96eb77742d3fa6eb580"/></dir><dir name="Model"><file name="Observer.php" hash="e0f5958f6a6522953e13367eeb070568"/><file name="Status.php" hash="ae9922186d0e0b906350ab08afce2c34"/></dir><dir name="controllers"><file name="IndexController.php" hash="04885da4121bf5a1c585b4c94b52cefa"/></dir><dir name="etc"><file name="adminhtml.xml" hash="219007754eb5c300498e0b6f969fcd81"/><file name="config.xml" hash="460b4d415ceb36005b37e4081859c557"/><file name="system.xml" hash="7a883c5f60697d5ccd1083edd9ddcf7a"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="ajaxlogin.xml" hash="fc676d7b394920d6fa1d91d9beff1f0e"/></dir><dir name="template"><dir name="ajaxlogin"><file name="ajaxlogin.phtml" hash="475fb2c59e5f1978f7aa6d9089329441"/><file name="head.phtml" hash="57473047b4e33837934de72b53951106"/><file name="login.phtml" hash="75651e73c4dd7480f35f201892c7290b"/><file name="openlogin.phtml" hash="3e89a4e749943485a0dd1b8af934934a"/></dir></dir></dir></dir></dir></target><target name="magelocale"><dir name="en_US"><file name="Magebuzz_Ajaxlogin.csv" hash="215cf1298ac00fbb035a18703a9ba246"/></dir></target><target name="mageweb"><dir name="js"><dir name="magebuzz"><dir name="ajaxlogin"><dir name="fancybox"><file name="jquery.fancybox.js" hash="c4dd736896c591e0209f40b6fd6b9449"/></dir><file name="jquery-1.10.1.min.js" hash="0f2c73db52c628aea45dca422666b3bd"/></dir></dir></dir></target><target name="mageskin"><dir name="frontend"><dir name="base"><dir name="default"><dir name="css"><dir name="magebuzz"><dir name="ajaxlogin"><dir name="images"><file name="ajax-loader.gif" hash="ee8c9115b9dac2718b0d509fcf37e20d"/><file name="bkg_button-hover.png" hash="d2030a33320b723b3ccd924c92289ecd"/><file name="bkg_button.png" hash="f6c82a69fade93092b6c49b8482f309c"/><file name="bkg_title.png" hash="56dbb3ddb316b88239127f9ffd65f1c6"/><file name="blank.gif" hash="325472601571f31e1bf00674c368d335"/><file name="close.png" hash="e21c7a5a7467cbe5326fd454c34e22db"/><file name="fancybox_loading.gif" hash="c6f1ad4957e50b83bb27691df8bc3f41"/><file name="fancybox_overlay.png" hash="77aeaa52715b898b73c74d68c630330e"/><file name="fancybox_sprite.png" hash="783d4031fe50c3d83c960911e1fbc705"/></dir><file name="jquery.fancybox.css" hash="dd58a746b74d0682c4bb3c8201212628"/><file name="styles.css" hash="d419f1e8ecbe882cc5c254196b7b80b5"/></dir></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Magebuzz_Ajaxlogin.xml" hash="9af81f8e9434d7962acc638e33c68e6d"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
