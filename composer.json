@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/magebuzz_ajax_login",
+    "name": "openmage-module-fostering\/magebuzz_ajax_login",
     "type": "magento-module",
-    "license": "OSL",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "Magebuzz Ajax Login 0.1.2",
     "authors": [
