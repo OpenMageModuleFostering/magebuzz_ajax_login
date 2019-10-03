@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/magebuzz_ajax_login",
+    "name": "OpenMageModuleFostering\/magebuzz_ajax_login",
     "type": "magento-module",
     "license": "OSL",
     "homepage": "",
     "description": "Magebuzz Ajax Login 0.1.2",
     "authors": [
-    {
-        "name": "Magebuzz",
-        "email": "magebuzz@gmail.com"
-    }
-],
+        {
+            "name": "Magebuzz",
+            "email": "magebuzz@gmail.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
